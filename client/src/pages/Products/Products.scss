@@ -1,0 +1,44 @@
+.products {
+  padding: 2rem 3rem;
+  display: flex;
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+
+    .filterItem {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+
+      h2 {
+        font-size: 1rem;
+        color: #333;
+      }
+
+      .inputItem {
+        display: flex;
+        gap: 10px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .right {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    img {
+      width: 100%;
+      height: 20rem;
+      object-fit: cover;
+    }
+  }
+}
